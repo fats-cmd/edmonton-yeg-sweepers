@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import bg from "../assets/backgrounds/garbage-on-road.avif";
 
 const Hero: React.FC = () => {
