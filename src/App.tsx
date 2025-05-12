@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
-import Services from "./pages/Service";
+// import Services from "./pages/Service";
 
 const App: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             {/* <Route path="/about" element={<About />} /> */}
-            <Route path="/services" element={<Services />} />
+            {/* <Route path="/services" element={<Services />} /> */}
             {/* <Route path="/contact" element={<Contact />} />  */}
           </Routes>
         </Layout>
